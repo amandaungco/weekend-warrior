@@ -11,7 +11,7 @@ describe "Word Count" do
   end
 
   it "Check counts_one_of_each" do
-    skip
+    
     expectedCounts = { "one" => 1, "of" => 1, "each" => 1 }
 
     expect(words('one of each')).must_equal expectedCounts
